@@ -1,4 +1,4 @@
-# Kats's react-beautiful-dnd sample
+# react-beautiful-dnd sample
 
 ## Overview
 
