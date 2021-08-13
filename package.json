@@ -1,22 +1,28 @@
 {
-  "name": "next-dnd-test",
-  "version": "0.1.0",
-  "private": true,
+  "name": "kats_react-beautiful-dnd_sample",
+  "version": "1.0.0",
+  "description": "This is a sample of React Drag & Drop library 'react-beautiful-dnd' implemented with TypeScript and Hooks.",
+  "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base dist/ --open-page index.html"
+  },
+  "author": "Kats",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
-    "next": "11.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.17",
-    "eslint": "7.32.0",
-    "eslint-config-next": "11.1.0",
-    "typescript": "4.3.5"
+    "@types/react": "^16.9.14",
+    "@types/react-beautiful-dnd": "^11.0.3",
+    "@types/react-dom": "^16.9.4",
+    "@types/styled-components": "^4.4.0",
+    "react": "^16.12.0",
+    "react-beautiful-dnd": "^12.2.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^4.4.1"
   }
 }
